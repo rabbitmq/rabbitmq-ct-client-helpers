@@ -5,7 +5,7 @@ erlang_lib(
     app_version = "master",
     deps = [
         "@rabbitmq-server//deps/rabbit_common:bazel_erlang_lib",
-        "@rabbitmq-ct-helpers//:bazel_erlang_lib",
+        "@rabbitmq_ct_helpers//:bazel_erlang_lib",
         "@rabbitmq-server//deps/amqp_client:bazel_erlang_lib",
     ],
 )
